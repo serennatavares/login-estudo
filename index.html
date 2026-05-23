@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de Form</title>
+</head>
+
+<body>
+    <h1>Estudo sobre Formulários</h1>
+
+    <form id="form-estudo">
+
+        <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome..."> <br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email..."> <br> <br>
+
+        <label for="email">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone..."> <br> <br>
+
+        <label for="email">CPF:</label>
+        <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF..."> <br> <br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" placeholder="Digite sua idade..."> <br> <br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade..."> <br> <br>
+
+        <label for="moradia">Moradia:</label>
+        <select name="moradia" id="moradia">
+            <option value="">Selecione</option>
+            <option value="casa">Casa</option>
+            <option value="apartamento">Apartamento</option>
+        </select> <br> <br>
+
+        <label for="quintal">Possui Quintal?</label>
+        <input type="radio" name="quintal" value="sim">Sim
+        <input type="radio" name="quintal" value="nao">Não <br> <br>
+
+        <label for="motivo">Qual o motivo da adoção?</label>
+        <textarea name="motivo" id="motivo"
+            placeholder="Descreva o motivo da adoção sem ser de forma genérica."></textarea> <br> <br>
+
+        <label for="termo">Aceita do termo de responsabilidade?</label>
+        <br>
+        <input type="checkbox" name="termo" id="termo"> Sim, aceito os termos de responsabilidade. <br> <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="scripts/script.js"></script>
+    
+</body>
+
+</html>
