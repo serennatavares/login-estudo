@@ -1,9 +1,11 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(assets/fundo.jpg);
+    font-size: 18px;
+
+    background-image: url("assets/fundo.jpg");
     background-size: cover;
     background-position: center;
-    font-size: 18px;
+    background-repeat: no-repeat;
 }
 
 form {
@@ -17,7 +19,7 @@ form {
 button {
     width: 100%;
     padding: 12px;
-    background: #e94f4f;
+    background: #e9d24f;
     color: white;
     border: none;
     border-radius: 10px;
